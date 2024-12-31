@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { toast } from 'react-hot-toast'
+import JoinCreateChat from '../components/JoinCreateChat'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,10 +9,7 @@ function App() {
   return (
     <>
     <div>
-      <h1>This is main page</h1>
-      <button onClick={()=>{ 
-        toast.success("Hello World!") 
-      }}>Click me</button>
+     <JoinCreateChat />
     </div>
     </>
   )
