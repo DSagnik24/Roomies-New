@@ -1,0 +1,13 @@
+# Node.js (frontend)
+node_modules/
+build/
+
+# Java (backend)
+target/
+*.class
+
+# OS/Editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
